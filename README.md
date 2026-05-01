@@ -16,12 +16,14 @@ I recently completed a beginner Python foundation course and I am now continuing
 
 ## Example Code
 
-```python
-products = ["Bike", "Shoes", "Surfboard"]
+    products = ["Bike", "Shoes", "Surfboard"]
 
-def show_products():
-    for item in products:
-        print(item)
+    def show_products():
+        for item in products:
+            print(item)
 
-show_products()
+    show_products()
 
+## Learning Goal
+
+Build stronger Python fundamentals and write cleaner structured code through practical exercises and portfolio projects.
