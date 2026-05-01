@@ -1,43 +1,27 @@
-# Python Portfolio
+# Functions & Lists Mini Project
 
-Welcome to my Python learning journey.
+## Overview
 
-This repository contains beginner projects, data exercises and automation scripts while I build practical programming skills.
+This project was created to practice core Python fundamentals such as functions, lists and loops.
 
-## Current Focus
+I recently completed a beginner Python foundation course and I am now continuing with hands-on projects to strengthen my practical programming skills.
 
-- Python fundamentals
-- CSV data projects
-- Problem solving
-- Automation
-- Building portfolio projects
+## Topics Practiced
 
-## Projects
+- Creating functions with `def`
+- Calling functions
+- Working with Python lists
+- Using `for` loops
+- Combining functions with data structures
 
-### CSV Sales Analyzer
+## Example Code
 
-Interactive Python project using CSV sales data.
+```python
+products = ["Bike", "Shoes", "Surfboard"]
 
-Features:
-- Calculate total sales
-- Show Sports category products
-- Find best selling product
-- Menu based interaction
+def show_products():
+    for item in products:
+        print(item)
 
-Folder:
-CSV-Sales-Analyzer/
+show_products()
 
-## Learning Progress
-
-Day by day I am improving in:
-
-- Variables
-- Loops
-- If statements
-- Functions
-- File handling
-- CSV data analysis
-
-## Goal
-
-Build enough practical Python skills to transition into remote work and data-related opportunities.
