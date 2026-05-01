@@ -1,2 +1,24 @@
-### Functions & Lists Mini Project
-Practicing Python functions, loops and list structures.
+# Functions & Lists Mini Project
+
+## Overview
+
+This project was created to practice core Python fundamentals such as functions, lists and loops.
+
+## Topics Practiced
+
+- Creating functions with `def`
+- Calling functions
+- Working with Python lists
+- Using `for` loops
+- Combining functions with data structures
+
+## Example Code
+
+```python
+products = ["Bike", "Shoes", "Surfboard"]
+
+def show_products():
+    for item in products:
+        print(item)
+
+show_products()
